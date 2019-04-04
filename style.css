@@ -1,0 +1,185 @@
+body {
+  background-image:url(images/new-blood-wallpaper.png); width="1340"
+  /* background-repeat: no-repeat; */
+  background-color: white;
+  color: black;
+  font-family: Showcard Gothic;
+  font-size: 25px;
+  /* margin: 50px; */
+}
+
+p {
+  color: #8a0000;
+  line-height: 2;
+  text-align: center;
+  margin: 20px 0;
+  background-color: #ccb5b5;
+  border: 5px solid grey;
+  border-top: 5px solid grey;
+}
+
+img {
+  text-align: center;
+  max-width: 100%;
+  margin: 25px;
+  padding: 0px;
+  border: 5px solid grey;
+  border-top: 5px solid grey;
+}
+
+
+h1, h2, h3 {
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 40px;
+}
+
+
+
+/* Website Styles */
+
+* {
+  font-size: 100%;
+  margin: 0;
+  line-height: 1;
+  /* Standardized box model */
+  box-sizing: border-box
+  /* border: 1px solid red; */
+  text-align: center;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: yellow;
+}
+
+/* Groups */
+header,
+section,
+footer {
+  padding: 26px;
+  margin: 25px;
+}
+
+.title {
+  font-size: 60px;
+  /* text-decoration: underline; */
+  margin: 30px;
+}
+
+header {
+  background-color: black;
+  border: 5px solid grey;
+  border-top: 5px solid grey;
+}
+
+header h1 {
+  background-color: #ccb5b5;
+  font-size: 50px;
+  text-align: center;
+}
+
+header h2 {
+  background-color: #ccb5b5;
+  /* font-size: 40px; */
+  text-align: center;
+}
+
+header h3 {
+  background-color: #ccb5b5;
+  font-size: 45px;
+  text-align: center;
+}
+
+h1 {
+  color: #8a0000;
+  font-size: 30px;
+  text-align: center;
+  /* text-decoration: underline; */
+  background-color: #ccb5b5;
+  border: 5px solid grey;
+  border-top: 5px solid grey;
+  }
+
+  h2 {
+    color: darkorange;
+    font-size: 30px;
+    text-align: center;
+    /* border: 5px solid grey; */
+    /* border-top: 5px solid grey; */
+    /* background-color: black; */
+  }
+
+  h3 {
+    color: #8a0000;
+    font-size: 30px;
+    text-align: center;
+    background-color: black;
+  }
+
+  section ul {
+    text-align: center;
+  }
+
+  section ol {
+    color: #8a0000;
+    text-align: center;
+  }
+
+  section li {
+    text align: center;
+    margin: 15px 0;
+  }
+
+  ul, ol {
+    margin: 15px 0;
+  }
+
+  footer {
+    color: orange;
+    font-size: 35px;
+    text-align: center;
+    /* background-color: #ccb5b5; */
+    padding: 25px;
+    
+  }
+.shiet h2 {
+  color: #8a0000;
+  border: 5px solid grey;
+  border-top: 5px solid grey;
+}
+
+  .container {
+    max-width: 1000px;
+    /* Option 1 */
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .banner {
+    height: 325px;
+    background-image:url(images/blood-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+
+  .float-image {
+    float: left;
+    margin-right:15px;
+    margin-left: 15px;
+  }
+
+  .column {
+    width: 50%;
+    float: left
+  }
