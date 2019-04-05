@@ -1,3 +1,14 @@
+/* Website Styles */
+* {
+  font-size: 100%;
+  margin: 0;
+  line-height: 1;
+  /* Standardized box model */
+  box-sizing: border-box
+  /* border: 1px solid red; */
+  text-align: center;
+}
+
 body {
   background-image:url(images/new-blood-wallpaper.png); width="1340"
   /* background-repeat: no-repeat; */
@@ -5,7 +16,7 @@ body {
   color: black;
   font-family: Showcard Gothic;
   font-size: 25px;
-  /* margin: 50px; */
+  margin: 50px;
 }
 
 p {
@@ -16,6 +27,7 @@ p {
   background-color: #ccb5b5;
   border: 5px solid grey;
   border-top: 5px solid grey;
+  font-size: 25px;
 }
 
 img {
@@ -27,25 +39,10 @@ img {
   border-top: 5px solid grey;
 }
 
-
 h1, h2, h3 {
   font-weight: bold;
   font-style: italic;
-  margin-bottom: 40px;
-}
-
-
-
-/* Website Styles */
-
-* {
-  font-size: 100%;
-  margin: 0;
-  line-height: 1;
-  /* Standardized box model */
-  box-sizing: border-box
-  /* border: 1px solid red; */
-  text-align: center;
+  margin-bottom: 20px;
 }
 
 a {
@@ -76,9 +73,11 @@ footer {
 }
 
 header {
-  background-color: black;
-  border: 5px solid grey;
-  border-top: 5px solid grey;
+  max-width: 900px;
+  margin: auto;
+  /* background-color: black; */
+  /* border: 5px solid grey;
+  border-top: 5px solid grey; */
 }
 
 header h1 {
@@ -89,7 +88,7 @@ header h1 {
 
 header h2 {
   background-color: #ccb5b5;
-  /* font-size: 40px; */
+  font-size: 40px;
   text-align: center;
 }
 
@@ -109,77 +108,92 @@ h1 {
   border-top: 5px solid grey;
   }
 
-  h2 {
+h2 {
     color: darkorange;
     font-size: 30px;
     text-align: center;
     /* border: 5px solid grey; */
     /* border-top: 5px solid grey; */
     /* background-color: black; */
+    margin-left: 0px;
+    margin-right: 0px:
+    padding-right: 400px;
   }
 
-  h3 {
+h3 {
     color: #8a0000;
     font-size: 30px;
     text-align: center;
     background-color: black;
   }
 
-  section ul {
+section ul {
     text-align: center;
   }
 
-  section ol {
+section ol {
     color: #8a0000;
     text-align: center;
   }
 
-  section li {
+section li {
     text align: center;
     margin: 15px 0;
   }
 
-  ul, ol {
+ul, ol {
     margin: 15px 0;
   }
 
-  footer {
+footer {
     color: orange;
     font-size: 35px;
     text-align: center;
     /* background-color: #ccb5b5; */
     padding: 25px;
-    
   }
+
 .shiet h2 {
   color: #8a0000;
   border: 5px solid grey;
   border-top: 5px solid grey;
+  margin-bottom: 10px;
+  margin-top: 15px;
 }
 
-  .container {
-    max-width: 1000px;
+.container {
+    max-width: 900px;
     /* Option 1 */
     margin: 0 auto;
     text-align: center;
     font-size: 30px;
-  }
+}
 
-  .banner {
+.banner {
     height: 325px;
     background-image:url(images/blood-banner.jpg);
     background-size: cover;
     background-position: center;
     text-align: center;
-  }
+}
 
-  .float-image {
+.float-image {
     float: left;
+    /* float:right; */
+    /* float: center; */
     margin-right:15px;
     margin-left: 15px;
-  }
+}
 
-  .column {
+.column {
     width: 50%;
     float: left
-  }
+}
+
+.nun {
+  margin: 0 auto;
+}
+
+h2 .bio {
+  margin-right: 500px;
+}
